@@ -1,0 +1,57 @@
+/*style.css*/
+
+header{
+    background-image: url(../img/header2.jpg); 
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+    color: gold;
+}
+
+header h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 80px;
+    padding-top: 150px;
+    padding-left: 100px;
+    text-shadow: 10px 10px 5px rgba(13,6,3,0.92);
+}
+
+header h3{
+    margin-top: 0px;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-left: 100px;
+    text-shadow: 10px 10px 5px rgba(13,6,3,0.92);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+section{
+    width: 2000px;
+    margin: 30px;
+    color: gold;
+    padding-left: 150px;
+    font-size: 50px;
+}
+
+section img{
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+footer{
+    background-color: orangered;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+    color: gold;
+    text-shadow: 10px 10px 5px rgba(13,6,3,0.92);
+}
